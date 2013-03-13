@@ -38,7 +38,9 @@ Adhearsion.config do |config|
   ##
   # Use with FreeSWITCH
   #
-  # config.punchblock.platform = :freeswitch # Use FreeSWITCH
+  config.punchblock.platform = :freeswitch # Use FreeSWITCH
+  config.punchblock.media_engine = :flite
+  config.punchblock.default_voice = :slt
   # config.punchblock.password = "" # Your Inbound EventSocket password
   # config.punchblock.host = "127.0.0.1" # Your IES host
 end
