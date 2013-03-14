@@ -7,3 +7,4 @@ tmp
 vendor/ruby
 .rvmrc
 .ruby-version
+.env

@@ -1,7 +1,9 @@
-source :rubygems
+source "https://rubygems.org"
 ruby "1.9.3"
 
-gem "adhearsion", "~> 2.2"
+gem "adhearsion", :git => "git://github.com/adhearsion/adhearsion.git", :branch => "develop"
+gem "adhearsion-twilio", :path => "/home/dave/work/contrib/adhearsion-twilio"
+gem "httparty"
 
 #
 # Here are some example plugins you might like to use. Simply
@@ -14,6 +16,11 @@ gem "adhearsion", "~> 2.2"
 # gem 'adhearsion-ldap'
 # gem 'adhearsion-xmpp'
 # gem 'adhearsion-drb'
+
+group :development do
+  gem 'foreman'
+  gem 'pry'
+end
 
 group :development, :test do
   gem 'rspec'
