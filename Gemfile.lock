@@ -21,11 +21,30 @@ GIT
       ruby_speech (~> 1.0)
       thor
 
+GIT
+  remote: git://github.com/adhearsion/punchblock.git
+  revision: 8001b44353ad397c77c94d2cb87b6c198399c052
+  branch: develop
+  specs:
+    punchblock (1.8.0)
+      activesupport (~> 3.0)
+      blather (>= 0.7.0)
+      celluloid (~> 0.12, >= 0.12.4)
+      future-resource (~> 1.0)
+      has-guarded-handlers (~> 1.5)
+      niceogiri (~> 1.1)
+      nokogiri (~> 1.5, >= 1.5.6)
+      ruby_ami (~> 1.2, >= 1.2.1)
+      ruby_fs (~> 1.0)
+      ruby_speech (~> 1.0)
+      state_machine (~> 1.0)
+
 PATH
   remote: /home/dave/work/contrib/adhearsion-twilio
   specs:
     adhearsion-twilio (0.0.1)
       adhearsion (~> 2.2)
+      httparty
       mail
 
 GEM
@@ -35,7 +54,7 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     adhearsion-loquacious (1.9.3)
-    blather (0.8.3)
+    blather (0.8.4)
       activesupport (>= 2.3.11)
       eventmachine (>= 1.0.0)
       girl_friday
@@ -88,18 +107,6 @@ GEM
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
-    punchblock (1.8.0)
-      activesupport (~> 3.0)
-      blather (>= 0.7.0)
-      celluloid (~> 0.12, >= 0.12.4)
-      future-resource (~> 1.0)
-      has-guarded-handlers (~> 1.5)
-      niceogiri (~> 1.1)
-      nokogiri (~> 1.5, >= 1.5.6)
-      ruby_ami (~> 1.2, >= 1.2.1)
-      ruby_fs (~> 1.0)
-      ruby_speech (~> 1.0)
-      state_machine (~> 1.0)
     rake (10.0.3)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
@@ -112,13 +119,13 @@ GEM
     rubinius-actor (0.0.2)
       rubinius-core-api
     rubinius-core-api (0.0.1)
-    ruby_ami (1.3.0)
-      celluloid-io (~> 0.12.0)
+    ruby_ami (1.3.1)
+      celluloid-io (~> 0.12)
       countdownlatch (~> 1.0)
       future-resource
       girl_friday
-    ruby_fs (1.0.3)
-      celluloid-io (~> 0.12.0)
+    ruby_fs (1.0.4)
+      celluloid-io (~> 0.12)
       json
     ruby_speech (1.1.0)
       activesupport (>= 3.0.7)
@@ -141,4 +148,5 @@ DEPENDENCIES
   foreman
   httparty
   pry
+  punchblock!
   rspec
