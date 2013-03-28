@@ -5,12 +5,6 @@ class CallController < Adhearsion::CallController
 
   def run
     answer
-    redirect
-  end
-
-  private
-
-  def dial(to, options = {})
-    super("user/1001", options)
+    notify_voice_request_url
   end
 end

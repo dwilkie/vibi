@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 ruby "1.9.3"
 
-gem "adhearsion", :git => "git://github.com/adhearsion/adhearsion.git", :branch => "develop"
-gem "adhearsion-twilio", :path => "/home/dave/work/contrib/adhearsion-twilio"
+gem "adhearsion",        :git => "git://github.com/adhearsion/adhearsion.git", :branch => "develop"
+gem "punchblock",        :git => "git://github.com/adhearsion/punchblock.git", :branch => "develop"
+gem "adhearsion-twilio", :git => "git://github.com/dwilkie/adhearsion-twilio"
 gem "httparty"
 
 #
