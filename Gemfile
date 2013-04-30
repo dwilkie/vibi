@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "1.9.3"
+ruby "2.0.0"
 
 gem "adhearsion",        :git => "git://github.com/adhearsion/adhearsion.git", :branch => "develop"
 gem "punchblock",        :git => "git://github.com/adhearsion/punchblock.git", :branch => "develop"
