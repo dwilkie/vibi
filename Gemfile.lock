@@ -23,7 +23,7 @@ GIT
 
 GIT
   remote: git://github.com/adhearsion/punchblock.git
-  revision: 600962b5defeb9902283af3946bfb25217e73451
+  revision: d2baea8609b66bd829619a0529b76986793528ca
   branch: develop
   specs:
     punchblock (1.8.2)
