@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/adhearsion/adhearsion.git
-  revision: c72670138da118d1d0a86d9a1007ae4938a10d10
+  revision: a31e16d7e02af14a7a6c7395d64026402a0009db
   branch: develop
   specs:
-    adhearsion (2.3.1)
+    adhearsion (2.3.2)
       activesupport (~> 3.0)
       adhearsion-loquacious (~> 1.9)
       bundler (~> 1.0)
@@ -23,10 +23,10 @@ GIT
 
 GIT
   remote: git://github.com/adhearsion/punchblock.git
-  revision: d2baea8609b66bd829619a0529b76986793528ca
+  revision: bef170a7d43e418158bbb5cfdf5d610ff1c4aeea
   branch: develop
   specs:
-    punchblock (1.8.2)
+    punchblock (1.9.0)
       activesupport (~> 3.0)
       blather (>= 0.7.0)
       celluloid (~> 0.13)
@@ -97,11 +97,11 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.8.1)
     mime-types (1.23)
-    multi_json (1.7.2)
+    multi_json (1.7.3)
     multi_xml (0.5.3)
-    niceogiri (1.1.1)
+    niceogiri (1.1.2)
       nokogiri (~> 1.5)
-    nio4r (0.4.3)
+    nio4r (0.4.5)
     nokogiri (1.5.9)
     polyglot (0.3.3)
     pry (0.9.12.1)
