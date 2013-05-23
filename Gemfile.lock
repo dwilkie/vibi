@@ -40,7 +40,7 @@ GIT
 
 GIT
   remote: git://github.com/dwilkie/adhearsion-twilio
-  revision: ee29b5df9fa79a57c300d5bc555c4ff92bf536ee
+  revision: 0175e359dc3c8ce17b12551a86bb964db87c81de
   specs:
     adhearsion-twilio (0.0.1)
       adhearsion (~> 2.2)
@@ -53,6 +53,7 @@ GEM
     activesupport (3.2.13)
       i18n (= 0.6.1)
       multi_json (~> 1.0)
+    addressable (2.3.4)
     adhearsion-loquacious (1.9.3)
     blather (0.8.4)
       activesupport (>= 2.3.11)
@@ -68,6 +69,7 @@ GEM
     coderay (1.0.9)
     connection_pool (1.0.0)
     countdownlatch (1.0.0)
+    crack (0.3.2)
     deep_merge (1.0.0)
     diff-lcs (1.2.4)
     dotenv (0.7.0)
@@ -106,6 +108,9 @@ GEM
       coderay (~> 1.0.5)
       method_source (~> 0.8)
       slop (~> 3.4)
+    rack (1.5.2)
+    rack-test (0.6.2)
+      rack (>= 1.0)
     rake (10.0.4)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
@@ -134,6 +139,10 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
+    vcr (2.5.0)
+    webmock (1.11.0)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
 
 PLATFORMS
   ruby
@@ -142,7 +151,9 @@ DEPENDENCIES
   adhearsion!
   adhearsion-twilio!
   foreman
-  httparty
   pry
   punchblock!
+  rack-test
   rspec
+  vcr
+  webmock

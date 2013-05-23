@@ -4,7 +4,7 @@ ruby "2.0.0"
 gem "adhearsion",        :git => "git://github.com/adhearsion/adhearsion.git", :branch => "develop"
 gem "punchblock",        :git => "git://github.com/adhearsion/punchblock.git", :branch => "develop"
 gem "adhearsion-twilio", :git => "git://github.com/dwilkie/adhearsion-twilio"
-gem "httparty"
+#gem "adhearsion-twilio", :path => "/home/dave/work/contrib/adhearsion-twilio"
 
 #
 # Here are some example plugins you might like to use. Simply
@@ -25,4 +25,10 @@ end
 
 group :development, :test do
   gem 'rspec'
+end
+
+group :test do
+  gem 'vcr'
+  gem 'webmock'
+  gem 'rack-test'
 end
