@@ -7,4 +7,11 @@ class CallController < Adhearsion::CallController
     answer
     notify_voice_request_url
   end
+
+  private
+
+  def twilio_dial(to, options = {})
+    play_audio!("https://s3.amazonaws.com/chibimp3/ringback_cambodia.mp3", :renderer => :native)
+    super
+  end
 end
