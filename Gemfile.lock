@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/adhearsion/adhearsion.git
-  revision: 2b1292e0961539742a315aee23a551ecb487842a
+  revision: dd4d3927621721cd53c6ab5c024f2323db4a8390
   branch: develop
   specs:
     adhearsion (2.3.4)
@@ -22,7 +22,7 @@ GIT
 
 GIT
   remote: git://github.com/adhearsion/punchblock.git
-  revision: c6df5b9685b37d8a43c87ca969a3fed511829a35
+  revision: 7e91fce1f9b7dba848c64dc52eace9bf755367b5
   branch: develop
   specs:
     punchblock (1.9.3)
@@ -40,7 +40,7 @@ GIT
 
 GIT
   remote: git://github.com/dwilkie/adhearsion-twilio
-  revision: 0175e359dc3c8ce17b12551a86bb964db87c81de
+  revision: c43aa017b4380a45d3b28cf93d9c0c467d3270a3
   specs:
     adhearsion-twilio (0.0.1)
       adhearsion (~> 2.2)
@@ -97,7 +97,7 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.8.1)
     mime-types (1.23)
-    multi_json (1.7.3)
+    multi_json (1.7.4)
     multi_xml (0.5.3)
     niceogiri (1.1.2)
       nokogiri (~> 1.5)
