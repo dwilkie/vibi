@@ -40,7 +40,7 @@ GIT
 
 GIT
   remote: git://github.com/dwilkie/adhearsion-twilio
-  revision: c43aa017b4380a45d3b28cf93d9c0c467d3270a3
+  revision: 3f7e723d60d571e686e83491de6467c3d06b3a11
   specs:
     adhearsion-twilio (0.0.1)
       adhearsion (~> 2.2)
@@ -55,16 +55,16 @@ GEM
       multi_json (~> 1.0)
     addressable (2.3.4)
     adhearsion-loquacious (1.9.3)
-    blather (0.8.4)
+    blather (0.8.5)
       activesupport (>= 2.3.11)
       eventmachine (>= 1.0.0)
       girl_friday
       niceogiri (~> 1.0)
       nokogiri (~> 1.5, >= 1.5.6)
-    celluloid (0.14.0)
+    celluloid (0.14.1)
       timers (>= 1.0.0)
-    celluloid-io (0.14.0)
-      celluloid (>= 0.13.0)
+    celluloid-io (0.14.1)
+      celluloid (>= 0.14.1)
       nio4r (>= 0.4.5)
     coderay (1.0.9)
     connection_pool (1.0.0)
@@ -97,11 +97,11 @@ GEM
       treetop (~> 1.4.8)
     method_source (0.8.1)
     mime-types (1.23)
-    multi_json (1.7.4)
+    multi_json (1.7.5)
     multi_xml (0.5.3)
     niceogiri (1.1.2)
       nokogiri (~> 1.5)
-    nio4r (0.4.5)
+    nio4r (0.4.6)
     nokogiri (1.5.9)
     polyglot (0.3.3)
     pry (0.9.12.2)
@@ -123,7 +123,7 @@ GEM
     rubinius-actor (0.0.2)
       rubinius-core-api
     rubinius-core-api (0.0.1)
-    ruby_ami (2.0.0)
+    ruby_ami (2.1.0)
       celluloid-io (~> 0.13)
     ruby_fs (1.1.0)
       celluloid-io (~> 0.13)
