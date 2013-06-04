@@ -10,7 +10,7 @@ class CallController < Adhearsion::CallController
 
   private
 
-  def twilio_dial(to, options = {})
+  def twilio_dial(node, options = {})
     play_audio!("https://s3.amazonaws.com/chibimp3/ringback_cambodia.mp3", :renderer => :native)
     super
   end
