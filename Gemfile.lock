@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/adhearsion/adhearsion.git
-  revision: 6a8111360913dc1ef94419f1412b1e0c9925cba2
+  revision: 3a57abb90e47f99521f5b29015f348d6927eb6d3
   branch: develop
   specs:
     adhearsion (2.3.5)
@@ -22,7 +22,7 @@ GIT
 
 GIT
   remote: git://github.com/dwilkie/adhearsion-twilio
-  revision: 13a3c1ed89e7232047a4d0ee4b95d7deb3f6bd3c
+  revision: b3dc344cc9fceaa049aaefe4ce4643aaebbdc6b9
   specs:
     adhearsion-twilio (0.0.1)
       adhearsion (~> 2.2)
@@ -55,7 +55,7 @@ GEM
       safe_yaml (~> 0.9.0)
     deep_merge (1.0.0)
     diff-lcs (1.2.4)
-    dotenv (0.7.0)
+    dotenv (0.8.0)
     eventmachine (1.0.3)
     ffi (1.9.0)
     foreman (0.63.0)
