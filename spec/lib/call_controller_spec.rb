@@ -10,27 +10,27 @@ describe CallController do
 
   describe "#run" do
     before do
-      mock_call.stub(:answer)
+      allow(mock_call).to receive(:answer)
     end
 
     it "should answer the call" do
-      mock_call.should_receive(:answer)
+      expect(mock_call).to receive(:answer)
       expect_call_status_update { subject.run }
     end
 
     context "when dialing" do
       let(:number_to_dial) { "+85512345678" }
-      let(:dial_status) { mock(Adhearsion::CallController::DialStatus, :result => :answer ) }
+      let(:dial_status) { double(Adhearsion::CallController::DialStatus, :result => :answer ) }
 
       before do
-        subject.stub(:dial).and_return(dial_status)
+        allow(subject).to receive(:dial).and_return(dial_status)
       end
 
       it "should first play a ringback" do
-        subject.should_receive(:play_audio!).with(
-          "https://s3.amazonaws.com/chibimp3/ringback_cambodia.mp3", :renderer => :native
+        expect(subject).to receive(:play_audio!).with(
+          "https://s3.amazonaws.com/chibimp3/ringback_cambodia.mp3"
         )
-        subject.should_receive(:dial)
+        expect(subject).to receive(:dial)
         expect_call_status_update(:to => number_to_dial, :cassette => :dial) { subject.run }
       end
     end
