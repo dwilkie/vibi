@@ -20,8 +20,9 @@ GIT
       ruby_speech (~> 2.0)
       thor (~> 0.18.0)
 
-PATH
-  remote: /home/dave/work/contrib/adhearsion-twilio
+GIT
+  remote: git://github.com/dwilkie/adhearsion-twilio.git
+  revision: aec0a9eece43e26b6eb5a0959339ed786b9a38fa
   specs:
     adhearsion-twilio (0.0.1)
       adhearsion (~> 2.2)

@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 ruby "2.2.1"
 
-gem "adhearsion",        :git => "git://github.com/adhearsion/adhearsion.git", :branch => "develop"
-gem "adhearsion-twilio", :path => "/home/dave/work/contrib/adhearsion-twilio"
+gem "adhearsion",        :github => "adhearsion/adhearsion", :branch => "develop"
+gem "adhearsion-twilio", :github => "dwilkie/adhearsion-twilio"
 
 group :development do
   gem 'foreman'
