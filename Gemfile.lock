@@ -22,7 +22,7 @@ GIT
 
 GIT
   remote: git://github.com/dwilkie/adhearsion-twilio.git
-  revision: aec0a9eece43e26b6eb5a0959339ed786b9a38fa
+  revision: 8ea1008fac2cd443df4329aa5a350cf47549f80e
   specs:
     adhearsion-twilio (0.0.1)
       adhearsion (~> 2.2)
@@ -91,9 +91,9 @@ GEM
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     method_source (0.8.2)
-    mime-types (2.4.3)
+    mime-types (2.5)
     mini_portile (0.6.2)
-    minitest (5.6.0)
+    minitest (5.6.1)
     multi_json (1.11.0)
     multi_xml (0.5.5)
     niceogiri (1.1.2)
