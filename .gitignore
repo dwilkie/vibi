@@ -5,5 +5,5 @@
 log/*.log
 tmp
 vendor/ruby
+vendor/jruby
 vendor/cache
-.ruby-version

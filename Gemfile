@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby "2.2.1"
 
 gem "adhearsion",        :github => "adhearsion/adhearsion", :branch => "develop"
 gem "adhearsion-twilio", :github => "dwilkie/adhearsion-twilio"
