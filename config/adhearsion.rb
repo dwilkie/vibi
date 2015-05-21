@@ -8,7 +8,5 @@ Adhearsion::Events.draw do
 end
 
 Adhearsion.router do
-  unaccepting do
-    route 'default', CallController
-  end
+  route 'default', CallController
 end
