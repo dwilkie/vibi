@@ -1,11 +1,9 @@
 class CallController < Adhearsion::CallController
-  #include Adhearsion::Twilio::ControllerMethods
+  include Adhearsion::Twilio::ControllerMethods
 
   def run
-    answer
-    sleep(5)
-    play_audio("https://s3.amazonaws.com/chibimp3/kh/ringback_tone.mp3")
-    hangup
-    #notify_voice_request_url
+    p "_____CALL VARIABLES________"
+    p call.variables
+    notify_voice_request_url
   end
 end
